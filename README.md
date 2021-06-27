@@ -1,8 +1,8 @@
 # PRÁCTICA DEL CURSO git, gitHub y Sourcetree
 
-**1. ¿Qué comando utilizaste en el paso 11? ¿Por qué?**  
-- `git reset --hard HEAD~1`  
-- Porque deshacia el ultimo commit junto con el cambio realizado en él
+- **¿Qué comando utilizaste en el paso 11? ¿Por qué?**  
+    - `git reset --hard HEAD~1`  
+    - Porque deshacia el ultimo commit junto con el cambio realizado en él
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**  
 ~~~
