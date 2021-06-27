@@ -1,12 +1,12 @@
 # PRÁCTICA DEL CURSO git, gitHub y Sourcetree
 
 **1. ¿Qué comando utilizaste en el paso 11? ¿Por qué?**  
-    + *git reset --hard HEAD~1*  
-    - Porque deshacia el ultimo commit junto con el cambio realizado en él
+- git reset --hard HEAD~1  
+- Porque deshacia el ultimo commit junto con el cambio realizado en él
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**  
 ~~~
-*<span style="color:green">git reflog</span>*  
+*`git reflog*  
 Para buscar el commit  
 <span style="color:green">git show "#Commit"</span>  
 Para verificar el cambio de ese commit  
@@ -24,7 +24,7 @@ Si, porque el htmlify tenia más contenido que styled en cada una de las lineas 
 No causo ningún conflicto
 
 **- ¿Qué comando o comandos utilizaste en el paso 25?**  
-<span style="color:green">git log --graph --pretty=oneline</span>
+*`git log --graph --pretty=oneline
 
 **- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?**  
 Si se podría por lo que en ese caso master tambien absorbería a la rama title pero no generaría un commit adicional para documentar el cambio
