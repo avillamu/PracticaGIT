@@ -38,7 +38,7 @@
 
 - **¿Qué comando o comandos utilizaste en el paso 30?**
     - `git reflog`
-    - `git reset --hard "#Commit"
+    - `git reset --hard "#Commit"`
 
 - **¿Qué comando o comandos usaste en el paso 32?**
     - `git checkout "#CommitInicial"`
