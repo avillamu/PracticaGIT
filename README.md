@@ -1,21 +1,23 @@
 # PRÁCTICA DEL CURSO git, gitHub y Sourcetree
 
 **1. ¿Qué comando utilizaste en el paso 11? ¿Por qué?**  
-- git reset --hard HEAD~1  
+- `git reset --hard HEAD~1  
 - Porque deshacia el ultimo commit junto con el cambio realizado en él
 
 2. **¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**  
 ~~~
-*`git reflog*  
+`git reflog  
 Para buscar el commit  
-<span style="color:green">git show "#Commit"</span>  
+git show "#Commit"  
 Para verificar el cambio de ese commit  
-<span style="color:green">git reset --hard "#Commit"</span>  
+git reset --hard "#Commit"  
 Para rehacer el commit y el cambio
 ~~~
 
 **- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?**  
-    No causo ningún conflicto
+~~~
+No causo ningún conflicto
+~~~
 
 **- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?**  
 Si, porque el htmlify tenia más contenido que styled en cada una de las lineas del archivo
